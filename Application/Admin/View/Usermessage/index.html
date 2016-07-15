@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+</head>
+<body>
+	<!-- 导航 -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand logo"><img
+					src="__PUBLIC__/img/logo.png" alt="师大之音"></a>
+			</div>
+		</div>
+	</nav>
+	<!--目录-->
+	<div class="concainer">
+		<div class="leftadmin">
+			<div style="padding-left: 20%; padding-top: 10%">
+				<ul class="admin-ul" id="Myul">
+					<li>节目</li>
+					<ul>
+						<li><a href="{:U('Admin/Index/index')}">节目上传</a></li>
+						<li><a href="{:U('Admin/Pchange/index')}">节目修改</a></li>
+						<li><a href="{:U('Admin/Pcomment/index')}">节目留言</a></li>
+					</ul>
+					<li>用户管理</li>
+					<ul>
+						<li><a href="{:U('Admin/Usermessage/index')}">用户信息</a></li>
+					</ul>
+					<li>主持队活动</li>
+					<ul>
+						<li><a href="../Hmessage/index/p/1">主持队信息</a></li>
+						<li><a href="{:U('Admin/Hcomment/index')}">主持队留言</a></li>
+						<li><a href="{:U('Admin/Happointment/index')}">主持队邀约</a></li>
+					</ul>
+					<li>公告通知</li>
+					<ul>
+
+						<li><a href="{:U('Admin/Join/index')}">活动报名</a></li>
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<!--用户信息-->
+		<div class="rightadmin">
+			<div style="padding: 5%">
+				<table class="simpletable">
+					<tr class="tableleading">
+						<td>昵称</td>
+						<td>密码</td>
+						<td>id</td>
+						<td>学号</td>
+						<td>邮箱</td>
+						<td>电话</td>
+						<td>用户类型</td>
+						<td>修改</td>
+					</tr>
+					<volist name="data" id="vo">
+					<tr>
+						<td>{$vo.username}</td>
+						<td>{$vo.userpassword}</td>
+						<td>{$vo.userid}</td>
+						<td>{$vo.usernumber}</td>
+						<td>{$vo.usermail}</td>
+						<td>{$vo.userphone}</td>
+						<td>{$vo.usertype}</td>
+						<td><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">修改</a></td>
+					</tr>
+					</volist>
+				</table>
+				<div class="modal fade" id="myModal" role="dialog" aria-labelledby="gridSystemModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body modal-background">
+						<div class="modal-body modal-background">
+										<div class="container-fluid" style="text-align:center;">
+											<a class="btn btn-primary btn-sm" href="__CONTROLLER__/fenghao/userid/{$vo.userid}" onclick="return confirm('您确定要停封该用户吗？')">封号</a>
+											<a class="btn btn-primary btn-sm" href="__CONTROLLER__/jiefeng/userid/{$vo.userid}" onclick="return confirm('您确定要解封该用户吗？')">解封</a>
+											<a class="btn btn-primary btn-sm" href="__CONTROLLER__/shengji/userid/{$vo.userid}" onclick="return confirm('您确定要升级该用户吗吗？')">升为管理员</a>
+											<a class="btn btn-primary btn-sm" href="__CONTROLLER__/jiangji/userid/{$vo.userid}" onclick="return confirm('您确定要降级该用户吗吗？')">降为普通用户</a>
+										</div>
+									</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</body>
+</html>

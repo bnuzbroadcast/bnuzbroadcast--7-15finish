@@ -1,0 +1,54 @@
+[ 2016-06-23T00:00:05+08:00 ] ::1 /bnuzbroadcast/Public/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-06-23T11:11:40+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c44208fd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:40+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c4430932.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:40+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c4430932.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:40+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c4430932.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:47+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-20/576803f74e580.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:47+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-20/576803f792319.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:47+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-20/576803f792319.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-06-23T11:11:47+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-20/576803f792319.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Uploads
+

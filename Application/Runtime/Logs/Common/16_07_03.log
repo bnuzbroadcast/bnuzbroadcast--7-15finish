@@ -1,0 +1,36 @@
+[ 2016-07-03T07:24:37+08:00 ] ::1 /bnuzbroadcast//Public/img/memories9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-03T07:24:37+08:00 ] ::1 /bnuzbroadcast//Public/img/memories10.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-03T07:29:16+08:00 ] ::1 /bnuzbroadcast//Public/img/memories9.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-03T08:53:41+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c44208fd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-07-03T08:53:49+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c44208fd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-07-03T08:53:54+08:00 ] ::1 /bnuzbroadcast//Uploads/2016-06-21/57688c44208fd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+ERR: 无法加载模块:Uploads
+

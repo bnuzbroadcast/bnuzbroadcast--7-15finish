@@ -1,0 +1,2385 @@
+[ 2016-06-25T00:08:17+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-06-25T00:08:20+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-06-25T00:08:21+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-06-25T00:08:22+08:00 ] ::1 /bnuzbroadcast/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-06-25T00:08:24+08:00 ] ::1 /bnuzbroadcast/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-06-25T00:11:31+08:00 ] ::1 /bnuzbroadcast/index.php/Home/activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-25T00:11:32+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-06-25T00:11:36+08:00 ] ::1 /bnuzbroadcast/index.php/Home/team/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 13 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php on line 17 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-06-25T00:15:28+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php on line 25 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-06-25T00:15:31+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php on line 25 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-06-25T00:15:35+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php on line 25 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-06-25T00:15:36+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-06-25T00:15:38+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-06-25T00:15:40+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-06-25T00:15:41+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php on line 25 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-06-25T00:15:43+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-06-25T00:16:23+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2016-06-25T00:16:25+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 82 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-06-25T00:16:48+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-06-25T00:17:05+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 81 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-06-25T00:17:11+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php on line 25 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: programid E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 108 行.
+NOTIC: [8] Undefined index: programname E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 108 行.
+NOTIC: [8] Undefined index: programname E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 116 行.
+NOTIC: [8] Undefined index: programname E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 123 行.
+NOTIC: [8] Undefined index: programname E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-06-25T00:25:47+08:00 ] ::1 /bnuzbroadcast/index.php/Home/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_user` WHERE ( userid=1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\UserController.class.php on line 25 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: programid E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 100 行.
+NOTIC: [8] Undefined index: programname E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-06-25T00:25:48+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-06-25T00:25:49+08:00 ] ::1 /bnuzbroadcast/index.php/Home/activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-06-25T00:25:51+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-06-25T00:25:52+08:00 ] ::1 /bnuzbroadcast/index.php/Home/play/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = null  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0054s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` WHERE `programid` = null  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2016-06-25T00:25:53+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-06-25T00:25:56+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 5  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0062s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` WHERE `programid` = 5  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-06-25T13:07:22+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-06-25T13:07:33+08:00 ] ::1 /bnuzbroadcast/index.php/Home/play/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = null  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0265s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = null  [ RunTime:0.0398s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-06-25T13:07:35+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-06-25T13:07:40+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 4  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0038s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '4'  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: user E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\c3b627b5214463ef105c62ca01e71b61.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-06-25T13:07:40+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-06-25T13:09:02+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 4  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0061s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '4'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: user E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\c3b627b5214463ef105c62ca01e71b61.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-06-25T13:09:02+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-06-25T13:09:11+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 4  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0058s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '4'  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: user E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\c3b627b5214463ef105c62ca01e71b61.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-06-25T13:09:11+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-06-25T13:11:08+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 4  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0055s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '4'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: user E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\c3b627b5214463ef105c62ca01e71b61.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-06-25T13:11:08+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-06-25T13:11:11+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-06-25T13:11:14+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0049s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '2'  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-06-25T13:11:19+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0044s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '3'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: user E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\c3b627b5214463ef105c62ca01e71b61.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-06-25T13:11:19+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-06-25T13:11:45+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0054s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '3'  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined variable: user E:\php\WWW\bnuzbroadcast\Application\Runtime\Cache\Home\c3b627b5214463ef105c62ca01e71b61.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-06-25T13:11:45+08:00 ] ::1 /bnuzbroadcast/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005867s ]
+
+[ 2016-06-25T13:12:32+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0055s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '3'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-06-25T13:12:39+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-06-25T13:12:42+08:00 ] ::1 /bnuzbroadcast/index.php/Home/team/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php on line 19 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-06-25T13:12:45+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 6  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '6'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-06-25T13:12:50+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0048s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '1'  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-06-25T13:12:54+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Host2/hcomment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-06-25T13:12:58+08:00 ] ::1 /bnuzbroadcast/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-06-25T13:12:58+08:00 ] ::1 /bnuzbroadcast/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] Undefined index: username E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant 登陆 - assumed '登陆' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant 注册 - assumed '注册' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php 第 11 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LoginController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-06-25T13:13:12+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_user` WHERE ( username ='mumu' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-06-25T13:13:13+08:00 ] ::1 /bnuzbroadcast/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2016-06-25T13:13:15+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2016-06-25T13:13:19+08:00 ] ::1 /bnuzbroadcast/index.php/Home/team/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 12 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php on line 19 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-06-25T13:13:23+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '1'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-06-25T13:13:26+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Host2/hcomment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0057s ]
+NOTIC: [8] Use of undefined constant hcommentcontent - assumed 'hcommentcontent' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant hcommentdate - assumed 'hcommentdate' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `t_hcomment` (`hcommentcontent`,`hcommentdate`,`hostid`,`userid`) VALUES ('ggg','2016-06-25 13:13:26','1','2') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-06-25T13:13:28+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Team/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 12 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php on line 19 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-06-25T13:13:32+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0072s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '1'  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-06-25T13:13:58+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-06-25T13:13:59+08:00 ] ::1 /bnuzbroadcast/index.php/Home/activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\ActivityController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-06-25T13:14:01+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2016-06-25T18:55:34+08:00 ] ::1 /bnuzbroadcast/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\IndexController.class.php on line 14 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-06-25T18:56:59+08:00 ] ::1 /bnuzbroadcast/index.php/Home/play/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = null  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0073s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = null  [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-06-25T18:57:01+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-06-25T18:57:05+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 4  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0059s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '4'  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-06-25T19:17:08+08:00 ] ::1 /bnuzbroadcast/index.php/Home/Play/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 4  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0066s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php 第 21 行.
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  WHERE `programid` = '4'  [ RunTime:0.0013s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\PlayController.class.php on line 24 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-06-25T19:22:01+08:00 ] ::1 /bnuzbroadcast/index.php/Home/lanmu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0589s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\LanmuController.class.php on line 18 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-06-25T19:22:03+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php 第 8 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\HostController.class.php on line 15 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-06-25T19:23:36+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = null  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0776s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = null  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-06-25T19:23:41+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = null  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0063s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+NOTIC: [8] Undefined index: id E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = null  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-06-25T19:24:01+08:00 ] ::1 /bnuzbroadcast/index.php/Home/team/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php 第 12 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\TeamController.class.php on line 19 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-06-25T19:24:03+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 9  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '9'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-06-25T19:24:12+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 7  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0053s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '7'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-06-25T19:24:16+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 6  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0059s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '6'  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-06-25T19:24:19+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 5  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0061s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '5'  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-06-25T19:24:23+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 4  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0072s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '4'  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-06-25T19:24:27+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0069s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '3'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-06-25T19:24:29+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0060s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '1'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-06-25T19:24:37+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 16  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0062s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '16'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-06-25T19:24:41+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 15  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0056s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '15'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-06-25T19:24:44+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 14  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0058s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '14'  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-06-25T19:24:49+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 13  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0054s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '13'  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-06-25T19:24:54+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 12  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0053s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '12'  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2016-06-25T19:25:00+08:00 ] ::1 /bnuzbroadcast/index.php/Home/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/host2/index/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Use of undefined constant 退出 - assumed '退出' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `t_host`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 20 行.
+SQL: SELECT * FROM `t_host` WHERE `hostid` = 11  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0059s ]
+NOTIC: [8] Use of undefined constant hostid - assumed 'hostid' E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php 第 26 行.
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid  WHERE `hostid` = '11'  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Home\Controller\Host2Controller.class.php on line 30 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+

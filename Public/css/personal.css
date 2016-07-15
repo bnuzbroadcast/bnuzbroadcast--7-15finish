@@ -1,0 +1,102 @@
+/*个人界面*/
+.maincontent{
+    margin-top: -50px;
+    width: 100%;
+    background-color:#fdfdfd;
+    height:1200px;
+
+}
+.maincontent2{
+    width: 100%;
+    background-color:#f7e1b5;
+}
+/*left*/
+.left{
+    width: 20%;
+    float: left;
+}
+.left1{
+    margin: 0 auto;
+    width: 80%;
+}
+.left2{
+    margin-top: 30px;
+    width: 100%;
+    background-color:#f8f6f2;
+    float: left;
+}
+.left2 ul{
+    margin-left: -40px;
+    list-style-type:none;
+}
+.left2 li {
+    width: 25%;
+    float: left;
+    display:block; /* 区块显示*/
+    text-decoration:none;
+    background-color:#f8f6f2;
+}
+.left2 li a{
+    margin: auto;
+    text-align:center;
+    display:block;                       /* 区块显示*/
+    text-decoration:none;
+    background-color:#f8f6f2;
+    color:black;
+}
+
+.left2 li a:hover      /*鼠标经过时*/
+{
+    background-color: #d4cebe; /* 改变背景色*/
+}
+.left3{
+    margin: auto;
+    margin-top: 30px;
+    background-color:#f1f5f8;
+    padding: 1%;
+    width: 80%;
+}
+.left3_1{
+    margin: auto;
+    text-align: center;
+}
+/*middle*/
+.middle{
+    width: 60%;
+    float: left;
+    padding-left: 10%;
+}
+.middle1{
+    width: 100%;
+}
+.name{
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 2.12rem;
+    margin-top: 40px;
+    width:100%;
+    color: #8c8262;
+}
+.name2{
+    width:100%;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: #8c8262;
+}
+.middle2{
+    margin-top: 80px;
+    width: 100%;
+    background-color: #d4cebe;
+}
+.middle2_1{
+    margin-top: -20px;
+    width: 100%;
+    background-color: #d4cebe;
+}
+.right{
+    width: 20%;
+    float: left;
+}

@@ -1,0 +1,291 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<title>主页</title>
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/bnuzbroadcast/Public/css/style.css">
+	</head>
+
+	<body>
+		<!-- 导航 -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="http://localhost/bnuzbroadcast/Home/index" class="navbar-brand logo"><img src="/bnuzbroadcast/Public/img/logo.png" alt="师大之音"></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" style="border: none;">
+						<img src="/bnuzbroadcast/Public/img/menu-icon.png" alt="" />
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="<?php echo U('Home/index/index');?>">师大之音</a></li>
+						<li><a href="<?php echo U('Home/play/index/id/1');?>">在线收听</a></li>
+						<li><a href="<?php echo U('Home/lanmu/index');?>">往期节目</a></li>
+						<li><a href="<?php echo U('Home/host/index');?>">校主持队</a></li>
+						<li><a href="<?php echo U('Home/activity/index');?>">品牌活动</a></li>
+						<?php echo ($url1); ?>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--轮播-->
+		<div id="myCarousel" class="carousel slide" style="margin-top: 60px;">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+					<div class="carousel-inner">
+				<div class="item active">
+					<img src="/bnuzbroadcast/Public/img/lunbo1.png"  alt="第一张">
+				</div>
+				<div class="item">
+					<img src="/bnuzbroadcast/Public/img/host-lunbo1.png"  alt="第二张">
+				</div>
+				<div class="item">
+					<img src="/bnuzbroadcast/Public/img/activity-banner.png"  alt="第三张">
+				</div>
+				</div>
+			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#myCarousel" data-slide="next" class="carousel-control right">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<!-- Broadcast Station-->
+		<div class="tab1">
+			<div class="container">
+				<h2 class="tab-h2">BNUZ Broadcast Station <br />台起九层 广天下之事 播百家之言</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="media">
+							<div class="media-body" style="text-align: right;">
+								<h4 class="tab-h4">online listening在线收听</h4>
+								<p class="tab-p">师大之音广播台拥有五个中文栏目分别是：新闻<br />非常道、心情沙漏、音为有你、如影随形以及生活大爆炸。三个英文栏目：Hello Monday、<br />Something You Can’t Miss&No way以及两个粤语栏目：粤嚟粤北师和粤啱channel</p>
+							</div>
+							<div class="media-right">
+								<a href="<?php echo U('Home/play/index/id/1');?>"><img src="/bnuzbroadcast/Public/img/middle1.png" class="media-object" style="margin-right: 20px;margin-top: 45px;"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="media">
+							<div class="media-left">
+								<a href="<?php echo U('Home/activity/index');?>"><img src="/bnuzbroadcast/Public/img/middle2.png" class="media-object" style="margin-left: 20px;margin-top: 45px ;"></a>
+							</div>
+							<div class="media-body">
+								<h4 class="tab-h4">品牌活动Brand activities</h4>
+								<p class="tab-p">配音大赛为了让更多的同学关注到广播台,关注<br />只闻其声不见其人的广播人。是广播台大力发展的一项品牌活动。每年歌手大赛之后，师大之音<br />广播台会免费录制CD派送给同学，只需扫广播台二维码即可领取。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="media">
+							<div class="media-body" style="text-align: right;">
+								<h4 class="tab-h4">Campus Notice校内公告</h4>
+								<p class="tab-p">校内以及各学院内大型活动时间地点通告及报名<br />询问链接大型比赛活动时间地点规则通告及报名询问链接热水补贴形势与政策传统活动查询每月<br />校内大事纪等等</p>
+							</div>
+							<div class="media-right">
+								<a href="#notice"><img src="/bnuzbroadcast/Public/img/middle3.png" class="media-object" style="margin-right: 20px;margin-top: 35px;"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="media">
+							<div class="media-left">
+								<a href="<?php echo U('Home/host/index');?>"><img src="/bnuzbroadcast/Public/img/middle4.png" class="media-object" style="margin-left: 20px;margin-top: 35px ;"></a>
+							</div>
+							<div class="media-body">
+								<h4 class="tab-h4">校主持队Host team of BNUZ</h4>
+								<p class="tab-p">这里给你足够的舞台。交流分享，弥补改正，共同<br />进步，这里不仅仅是机会，更是成长。甜品店、餐厅、演出现场，这里有友谊，更有与你并肩作战的朋友。这里，年轻、激情、梦想。</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- 每周精选 -->
+		<div class="tab2">
+			<div class="container">
+				<h2 class="tab-h2">每周精选<br /> PICK OF THE WEEK</h2>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="media select" >
+							<div class="media-heading">
+							<a href="<?php echo U('Home/play/index1');?>">
+								<img src="/bnuzbroadcast/Public/img/select1.png" class="img-responsive" alt="" />
+								</a>
+							</div>
+							<div class="media-middle">
+								<h4 class="tab-h4">如影随形</h4>
+								<p class="tab-p1" style="width: 80%; margin-left: 10%;padding-top: 5px;">“我们去看什么电影？”——《寻龙诀》尤其是跟之前陆川改编版《九层妖塔》相比，不少观众都表示：“甩出《九层妖塔》九条街，《寻龙诀》好歹真的有盗墓！”</p>
+							</div>
+							<div class="media-bottom select-left">
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="media select">
+							<div class="media-heading">
+							<a href="<?php echo U('Home/play/index2');?>">
+								<img src="/bnuzbroadcast/Public/img/select2.png" class="img-responsive" alt="" />
+								</a>
+							</div>
+							<div class="media-middle">
+								<h4 class="tab-h4" style="padding-bottom: 16px;">STH U Can’t Miss</h4>
+								<p class="tab-p1" style="width: 70%; margin-left: 15%;padding-bottom: 26px;">A Woman with a lot of boyfriends and a man with a lot of girlfriendsLucas Till in“You Belong With Me”</p>
+							</div>
+							<div class="media-bottom select-left">
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="media select">
+							<div class="media-heading">
+								<a href="<?php echo U('Home/play/index3');?>">
+								<img src="/bnuzbroadcast/Public/img/select3.png" class="img-responsive" alt="" />
+								</a>
+							</div>
+							<div class="media-middle">
+								<h4 class="tab-h4">心情沙漏</h4>
+								<p class="tab-p1" style="padding-top: 6px;">好想去旅行，好想漫步在大理的小镇里邂逅一段爱情，好想漫步在黄金海岸的沙滩上看着斜阳缓缓西沉，好想站在行驶在太平洋的邮轮上感受世界的宽广，好想，好想</p>
+							</div>
+							<div class="media-bottom select-left">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 校内公告 -->
+		<div class="tab3">
+			<div class="container">
+			<a name="notice"></a>
+				<h2 class="tab-h2">【校内公告】</h2>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="media">
+							<div class="media-heading">
+								<img src="/bnuzbroadcast/Public/img/notice.png" class="img-responsive center-block" alt="" />
+							</div>
+							<div class="media-body" style="padding-top: 30px;">
+								<p class="tab-p"><span style="color: #6ab3a7;">信息技术学院</span>第十三届IT节风暴来袭，科技学时和丰厚奖金等你来拿。<br />5月7日截止提交作品，团体参赛不得超过五人。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Our tiny time -->
+		<div class="tab4">
+			<div class="container">
+				<h2 class="tab-h2">OUR TINY TIMES·<span style="letter-spacing: .15em;"><span style="font-size: 50px;">我们</span>的精彩时代</span></h2>
+				<div class="row">
+				<div class="col-md-6 col-sm-12" style="padding: 0px;margin: 0;">
+					<div class="col-md-6 col-sm-12"style="padding: 0px;margin: 0;">
+					<a href="<?php echo U('Home/activity/index');?>">
+						<img src="/bnuzbroadcast/Public/img/notice1.png" class="img-responsive center-block myImg"/>
+						</a>
+					</div>
+					<div class="col-md-6 col-sm-12 tab4-body center-block myImg_box"style="padding: 15px;">
+						<h5 class="tab-h5">2016级校主持队活动邀约全面范围开展</h5>
+						<p class="tab-p2">2016学年2015级校主持队将全面接受活动邀约活动洽谈<br />部长：马宇晴<br />潘志航<br />申博扬</p>
+						
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12" style="padding: 0;margin: 0;">
+					<div class="col-md-6 col-sm-12" style="padding: 0px;margin: 0;">
+					<a href="<?php echo U('Home/activity/index');?>">
+						<img src="/bnuzbroadcast/Public/img/notice2.png" class="img-responsive center-block myImg" />
+						</a>
+					</div>
+					<div class="col-md-6 col-sm-12 tab4-body center-block myImg_box" style="padding: 15px;">
+						<h5 class="tab-h5">2015级校主持人队成立</h5>
+						<p class="tab-p2">这里给你足够的舞台。交流分享，弥补改正，共同进步，这里不仅仅是机会，更是成长。这里有友谊，更有与你并肩作战的朋友。这里，年轻、激情、梦想。</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="col-md-6 col-sm-12" style="padding: 0px;margin: 0;">
+					<div class="col-md-6 col-sm-12"style="padding: 0px;margin: 0;">
+					<a href="<?php echo U('Home/activity/index');?>">
+						<img src="/bnuzbroadcast/Public/img/notice3.png" class="img-responsive center-block myImg"/>
+						</a>
+					</div>
+					<div class="col-md-6 col-sm-12 tab4-body center-block myImg_box"style="padding: 15px;">
+						<h5 class="tab-h5">2015-2016学年第一次全台大会圆满结束</h5>
+						<p class="tab-p2">2015-2016学年夏季学期初台委会对优秀部门、优秀栏目、优秀部长以及优秀个人进行了表彰颁发了证书并赠送了礼物</p>
+						
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12" style="padding: 0;margin: 0;">
+					<div class="col-md-6 col-sm-12" style="padding: 0px;margin: 0;">
+					<a href="<?php echo U('Home/activity/index');?>">
+						<img src="/bnuzbroadcast/Public/img/notice4.png" class="img-responsive center-block myImg" />
+						</a>
+					</div>
+					<div class="col-md-6 col-sm-12 tab4-body center-block myImg_box" style="padding: 15px;">
+						<h5 class="tab-h5">品牌活动之校园十大歌手专辑&配音大赛</h5>
+						<p class="tab-p2">配音大赛为了让更多的同学关注到广播台,关注只闻其声不见其人的广播人。是广播台大力发展的一项品牌活动。每年歌手大赛之后，师大之音广播台会免费录制CD派送给同学，只需扫广播台二维码即可领取。</p>
+					</div>
+				</div>	
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="container">
+			<footer>
+				<p class="footer-p" style="border-bottom: 5px solid #999;padding-bottom: 30px;">广天下之事·播百家之言</p>
+				<p class="footer-p1" style="text-align: center;color: #666;margin-top: 20px;">北京师范大学珠海分校师大之音广播台 版权所有<br />地址：广东省珠海市唐家湾镇金凤路18号北京师范大学珠海分校粤华三栋 邮编：519000</p>
+			</footer>
+		</div>
+
+		<script src="/bnuzbroadcast/Public/js/jquery.min.js"></script>
+		<script src="/bnuzbroadcast/Public/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			//轮播自动播放
+			$('#myCarousel').carousel({
+				//自动4秒播放
+				interval: 4000,
+			});
+			//设置文字垂直居中，谷歌浏览器加载图片的顺序问题，导致高度无法获取
+			function aaa(){
+				var imgs = $(".myImg");
+				//console.log(imgs)
+				for(i=0;i<imgs.length;i++)
+				{
+					var myHeight = imgs[i].height;
+					//console.log('height_'+myHeight);
+					$(".myImg_box").css('height',myHeight+'px');
+				}
+			}
+				$(window).load(function aaa(){
+				var imgs = $(".myImg");
+				//console.log(imgs)
+				for(i=0;i<imgs.length;i++)
+				{
+					var myHeight = imgs[i].height;
+					//console.log('height_'+myHeight);
+					$(".myImg_box").css('height',myHeight+'px');
+				}
+			});
+			$(window).resize(function aaa(){
+				var imgs = $(".myImg");
+				//console.log(imgs)
+				for(i=0;i<imgs.length;i++)
+				{
+					var myHeight = imgs[i].height;
+					//console.log('height_'+myHeight);
+					$(".myImg_box").css('height',myHeight+'px');
+				}
+			});
+			aaa();
+		</script>
+	</body>
+</html>

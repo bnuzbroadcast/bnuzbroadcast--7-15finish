@@ -1,0 +1,1405 @@
+[ 2016-07-03T08:09:12+08:00 ] ::1 /bnuzbroadcast/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-07-03T08:10:06+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Join/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2016-07-03T08:18:44+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Join/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `t_join` [ RunTime:0.0157s ]
+ERR: 1054:Unknown column 't_pcomment.userid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `t_join` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  ORDER BY joindate desc 
+ERR: 1054:Unknown column 't_pcomment.userid' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `t_join` INNER JOIN t_user ON t_pcomment.userid = t_user.userid  ORDER BY joindate desc 
+
+[ 2016-07-03T08:19:06+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Join/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `t_join` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `t_join` ORDER BY joindate desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-07-03T08:19:22+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Join/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `t_join` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `t_join` ORDER BY joindate desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003258s ]
+
+[ 2016-07-03T08:19:52+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Join/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `t_join` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `t_join` ORDER BY joindate desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2016-07-03T08:20:00+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Happointment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `t_invite` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `t_invite` INNER JOIN t_host ON t_invite.hostid = t_host.hostid  ORDER BY invitetime   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-07-03T08:20:02+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Hcomment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid INNER JOIN t_host ON t_hcomment.hostid = t_host.hostid   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2016-07-03T08:20:05+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Hmessage/index/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_host` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_host` LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2016-07-03T08:20:36+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-07-03T08:20:38+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0014s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2016-07-03T08:20:39+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pcomment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `t_pcomment` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `t_pcomment` INNER JOIN t_user ON t_pcomment.userid = t_user.userid INNER JOIN t_program ON t_pcomment.programid = t_program.programid   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2016-07-03T08:20:43+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Usermessage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_user`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2016-07-03T08:20:44+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Hmessage/index/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `t_host` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_host` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_host` LIMIT 0,4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2016-07-03T08:20:46+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Hcomment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `t_hcomment` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `t_hcomment` INNER JOIN t_user ON t_hcomment.userid = t_user.userid INNER JOIN t_host ON t_hcomment.hostid = t_host.hostid   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-07-03T08:41:25+08:00 ] ::1 /bnuzbroadcast/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-07-03T08:41:29+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0014s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-07-03T08:41:36+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 1  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-07-03T08:42:44+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0160s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='那些我所向往的自由与远方',`programinstruction`='莱蒙托夫将人生比喻成航行，每个人都是浩瀚海洋中的一只小帆，我们孤独，我们随风飘动，我们自由。我们可能身不由己，我们也许饱受挫折，但是我们活着，我们相爱，我们就不能害怕被伤害呀。关于自由，每个人都有不同的理解与追求。一百名观众有一百种哈姆雷特，一百个人就有一百种自由的追求。无论哪一种，生命不息战斗不止，千万不要放弃，对自由的追求。',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/57785f83b871c.jpg',`programcontent`='/Uploads/2016-07-03/57785f83be127.mp3' WHERE `programid` = 1 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005841s ]
+
+[ 2016-07-03T08:42:46+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 1  [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2016-07-03T08:42:49+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-07-03T08:42:52+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 2  [ RunTime:0.0014s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-07-03T08:43:42+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0152s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='Maroon 5',`programinstruction`='有没有一个瞬间对当下的流行音乐感到一丝厌倦？感觉那些繁杂的电音扰乱着的心弦？迫切期待着能够洗涤灵魂的传统抒情摇滚?本周我们将为你带来来自魔力红的一些经典抒情摇滚推荐，是的你没听错，是来自魔力红的抒情摇滚。曾几何时魔力红还未被流行元素侵染的岁月，让我们随着主唱亚当灵动的声线去感受经典给我们带来的灵魂激荡。',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/57785fbd8b93f.png',`programcontent`='/Uploads/2016-07-03/57785fbd9044e.mp3' WHERE `programid` = 2 [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004346s ]
+
+[ 2016-07-03T08:43:44+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 2  [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2016-07-03T08:45:01+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-07-03T08:45:47+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 3  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-07-03T08:46:13+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0122s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='生活大爆炸',`programinstruction`='hi 小朋友们大家好 还记得我们是谁吗
+对啦 我们就是当年叱咤风云的大忽悠
+什么大忽悠啊 我们是小鲜肉 我们是今年师大之音生活大爆炸的新成员XX XX 今天我们要和海华 粤华 京华和燕华
+还有京师家园的小朋友们来做现场的表演
+对了我们今天就来讲一讲如何搞基 呸 如何学习的故事
+准备好了吗 我们马上就要开讲啦~~~',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/577860544b086.jpg',`programcontent`='/Uploads/2016-07-03/577860544ee47.mp3' WHERE `programid` = 3 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005703s ]
+
+[ 2016-07-03T08:46:15+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 3  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-07-03T08:46:18+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2016-07-03T08:46:22+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 7  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2016-07-03T08:47:12+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0083s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='关于大学生使用信用卡利弊',`programinstruction`='近几年，学生信用卡在各大高校迅速窜红，越来越多的大学生开始使用这种先消费后还款的透支服务。各家银行都推出了相关的学生信用卡业务，慷慨地提供给大学生额度不小的透支额度。其中，建设银行提供的最高额度为3000，工商银行的额度为500元，其他银行的透支额度大多控制在2000元以内。同时，信用卡办卡的门槛也越来越低。
+  随着市场经济的发展和与国外的日益接轨，信用卡为大学生带来了许多便利之处，了解和使用信用卡，是新时代大学生的必修课。同时它也是一把双刃剑，对其放任自流，糊涂消费就会出现这样或那样的问题。我们要学会理性消费、合理理财，上好大学生活的理财的第一课。在全球金融危机的今天，理性对待信用卡更具有现实意义。 ',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/5778608f07efd.jpg',`programcontent`='/Uploads/2016-07-03/5778608f0bd1d.mp3' WHERE `programid` = 7 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002594s ]
+
+[ 2016-07-03T08:47:14+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 7  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2016-07-03T08:47:23+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-07-03T08:47:27+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 8  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-07-03T08:47:49+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0082s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='音乐推送',`programinstruction`='音乐推送',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/577860b4078b6.jpg',`programcontent`='/Uploads/2016-07-03/577860b40a73d.mp3' WHERE `programid` = 8 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2016-07-03T08:47:51+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 8  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-07-03T08:47:57+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0786s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-07-03T08:48:37+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 8  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-07-03T08:49:11+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0054s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='Lucas Till in“You Belong With Me”',`programinstruction`='Lucas Till在Taylor Swift的榜首歌单“You Belong With Me”MV里面赢得了她的欢心，不过他们俩的感情维持的时间并不长，这看起来并没有什么戏剧性因为在泰勒斯威夫特后来的歌里并没有看到关于他的歌。而Lucas后来也承认他们俩有尝试过认真的去约会，说“并不很成功”，他“只是把她当作朋友一样喜欢”',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/57786106bbb45.jpg',`programcontent`='/Uploads/2016-07-03/57786106bf3b8.mp3' WHERE `programid` = 8 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2016-07-03T08:49:13+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 8  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-07-03T08:49:15+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0015s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-07-03T08:49:21+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 9  [ RunTime:0.0015s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2016-07-03T08:50:01+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0172s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='The Hunger Games:Mockingjay-Part2',`programinstruction`='这部电影告诉我们Ktniss并不是强大得无以复加，她很突然的领导了革命，她的命运改变让她成为了嘲笑鸟，成为了自由的象征。这并不是她的选择，却成为了她唯一的选择，她实际上是领导世界，渴望自由的人安排的一个角色。毫无疑问，在争取自由的过程中，很多人会悲剧的死去。我们需要知道的只是当一个人无法决定他的命运，他最好做点什么去改变这个世界。',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/57786138abab2.jpg',`programcontent`='/Uploads/2016-07-03/57786138b0fd7.mp3' WHERE `programid` = 9 [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003523s ]
+
+[ 2016-07-03T08:50:03+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 9  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2016-07-03T08:50:14+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0018s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2016-07-03T08:50:18+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 10  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-07-03T08:50:55+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0146s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='MUSIC  Ariana Grande:Santa Tell Me',`programinstruction`='Santa Tell Me是美国歌手爱丽安娜·格兰德在2014年11月25日，与圣诞节前夕发行的圣诞单曲。灵感源自圣诞老人，歌曲表达了希望拥有永远的爱。',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/5778616e1d6c7.JPG',`programcontent`='/Uploads/2016-07-03/5778616e20fe2.mp3' WHERE `programid` = 10 [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003865s ]
+
+[ 2016-07-03T08:50:57+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 10  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-07-03T08:51:03+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2016-07-03T08:51:07+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 11  [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-07-03T08:52:18+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0129s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='20151110粤嚟粤北师公众号推送by鲸鱼',`programinstruction`='一年一度嘅双十一就到啦 仲系孤身寡人嘅你打算有咩搞作啊 系click入淘宝最后武装自己嘅购物战车 定系趁双十一之前贴埋大床将自己sell出去 抑或系反锁自己系宿舍杜绝一切对单身狗嘅暴击伤害 呢个确实系一个头痕嘅问题  ',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/577861c1bc113.jpg',`programcontent`='/Uploads/2016-07-03/577861c1c6fcf.mp3' WHERE `programid` = 11 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006171s ]
+
+[ 2016-07-03T08:52:21+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 11  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2016-07-03T08:52:22+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `t_program`  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 13 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005758s ]
+
+[ 2016-07-03T08:52:26+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 12  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2016-07-03T08:53:34+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0184s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant programname - assumed 'programname' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant programinstruction - assumed 'programinstruction' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant programdate - assumed 'programdate' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant programpicture - assumed 'programpicture' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant programcontent - assumed 'programcontent' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 49 行.
+NOTIC: [8] Undefined index: validate E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `t_program` SET `programname`='心情沙漏',`programinstruction`='所有的曲终人散 分道扬镳，到最后可惜的不是离散，而是没有好好告别。这是一个流行分离的世界，但我们都不擅长告别。那些毕业的语录总会让你笑着流泪，那些偷偷溜走的时光却丰盈了我们的人生。感谢路上一直有你们的陪伴，我才是幸福的。从今往后 愿我们脚下有风，各自灿烂。',`programdate`='2016-07-03',`programpicture`='/Uploads/2016-07-03/5778620ced604.jpg',`programcontent`='/Uploads/2016-07-03/5778620cf0a18.mp3' WHERE `programid` = 12 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004385s ]
+
+[ 2016-07-03T08:53:36+08:00 ] ::1 /bnuzbroadcast/index.php/Admin/Pchange/change/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+NOTIC: [8] Use of undefined constant programid - assumed 'programid' E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_program` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `t_program` WHERE `programid` = 12  [ RunTime:0.0015s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\php\WWW\bnuzbroadcast\Application\Admin\Controller\PchangeController.class.php on line 22 and defined E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\php\WWW\bnuzbroadcast\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
